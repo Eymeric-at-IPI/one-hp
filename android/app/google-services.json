@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "632311980662",
+    "project_id": "one-hp-54e38",
+    "storage_bucket": "one-hp-54e38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632311980662:android:44996d52eac7916dc2f557",
+        "android_client_info": {
+          "package_name": "com.example.one_hp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632311980662-h52ktfqg6sfjet49vbnntkvkdrm2on61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpEx7NPtp_JwzLtWVqMA4JIIQ7hMeFF4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632311980662-h52ktfqg6sfjet49vbnntkvkdrm2on61.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "632311980662-ttm0efvs4v1c4mrpticnq0js8ptk8r16.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.eymericsertgoz.onehp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

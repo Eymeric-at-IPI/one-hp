@@ -170,4 +170,16 @@ class SignInProvider extends ChangeNotifier {
     sharedPreferences.clear();
   }
 
+  // TODO : refactor isolé les process google, firbase etc ..
+  // TODO : doc : save
+  void phoneNumberUser(User user, email, name) {
+    _name = name;
+    _email = email;
+    // TODO : change this ico ?
+    _imageUrl = "https://winaero.com/blog/wp-content/uploads/2017/12/User-icon-256-blue.png";
+    _uuid = user.phoneNumber;
+    _provider = "PHONE";
+    notifyListeners();
+  }
+
 }

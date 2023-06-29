@@ -44,6 +44,10 @@ dependencies:
   rounded_loading_button: ^2.1.0
   font_awesome_flutter: ^10.4.0
   connectivity_plus: ^4.0.1
+  intl_phone_number_input: ^0.7.3+1
+  phone_form_field: ^7.1.0
+  mobile_scanner: ^3.2.0
+  flutter_web_frame: ^0.0.3
 
 dev_dependencies:
   flutter_test:
@@ -77,6 +81,8 @@ flutter:
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
+  assets:
+    - assets/
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -97,6 +103,13 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
-  assets:
-    - assets/
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: fonts/Avenir-Regular.ttf
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Gilroy-ExtraBold.ttf
+          weight: 800
